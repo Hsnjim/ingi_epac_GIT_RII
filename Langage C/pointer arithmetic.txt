@@ -1,0 +1,14 @@
+Question 1: First argument
+
+int *pos = (int *)ptr + 3;
+return *pos;
+
+Question 2: Second argument
+
+char *pos = (char *)ptr + 6;
+return *pos;
+
+Question 3: Third argument 
+
+int *pos = (int *)(ptr + 1) + 11;
+return *pos;

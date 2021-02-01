@@ -1,0 +1,7 @@
+#include <string.h>
+if (nmemb == 0 || size == 0)
+    return NULL;
+void *memory = malloc(nmemb * size);
+if (memory != NULL)
+    memset (memory, 0, nmemb * size);
+return memory;

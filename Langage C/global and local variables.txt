@@ -1,0 +1,11 @@
+Question 1: On the stack
+
+5
+
+Question 2: Global variables
+
+result = a+b;
+
+Question 3: Passing by reference
+
+*r = *a + *b;

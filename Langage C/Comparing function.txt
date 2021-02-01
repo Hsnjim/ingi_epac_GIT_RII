@@ -1,0 +1,9 @@
+int cmp_func( uint8_t func (uint8_t n), uint8_t func2(uint8_t n)){
+    for (uint8_t n=0x00; n<=0xff ; n++){
+         if(func(n) == func2(n))
+        	return 1;
+    	else
+        	return 0;
+    }
+   
+}

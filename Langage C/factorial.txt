@@ -1,0 +1,14 @@
+int factorial (int val){
+    int i;
+    int facto;
+    if (val == 0){
+        facto = 1;
+    }
+    else if (val !=0){
+        facto = 1;
+        for (i=2; i<=val; i++){
+            facto = facto * i;
+        }
+    }
+    return (facto);
+}

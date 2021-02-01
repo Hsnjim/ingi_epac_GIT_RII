@@ -1,0 +1,8 @@
+int index = -1;
+int i;
+for(i=0; i<len ; i++){
+    if(tab[i]==elem){
+        index=i;
+    }
+}
+return (index);

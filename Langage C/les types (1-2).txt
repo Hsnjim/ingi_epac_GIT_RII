@@ -1,0 +1,29 @@
+Question 1: Un entier
+
+int x;
+
+Question 2: Un tableau d'entiers
+
+int x[10];
+
+Question 3: Taille d'un tableau
+
+20
+
+Question 4: Un pointeur vers un entier 
+
+int* x;
+
+Question 5: Taille d'un pointeur
+
+8
+
+Question 6: Taille d'un tableau passé comme argument
+
+int pipe (int filedes[2]);
+
+8
+
+Question 7: Un tableau d'entiers à 2 dimensions
+
+int x[8][5];

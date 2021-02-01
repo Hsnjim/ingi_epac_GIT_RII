@@ -1,0 +1,9 @@
+int count = 0;
+    void* p = NULL;
+    while(!p && count < 10){
+        p = malloc(s);
+        if(p) return p;
+        sleep(5);
+        count ++;
+    }
+    return NULL;

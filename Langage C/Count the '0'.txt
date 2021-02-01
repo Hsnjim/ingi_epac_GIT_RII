@@ -1,0 +1,15 @@
+    int count = 0;
+    
+    int i;
+if(str == NULL){
+    return -1;
+}
+else {
+    for(i = 0; i < length; i++){
+        if(str[i] == '\0')
+            count++;
+    }
+    
+    return count;
+}
+    

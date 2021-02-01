@@ -1,0 +1,11 @@
+if (filename != NULL){
+    int jim = open(filename, O_RDONLY);
+    if(jim == -1){
+        return -1;
+}
+else {
+    close(jim);
+    return 0;
+}
+}
+return -1;

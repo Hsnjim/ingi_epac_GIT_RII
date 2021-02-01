@@ -1,0 +1,9 @@
+void swap(struct fract_t *a, struct fract_t *b)
+
+int temp;
+temp = a->num;
+a->num = b->num;
+b->num = temp;
+temp = a->denum;
+a->denum = b->denum;
+b->denum = temp;

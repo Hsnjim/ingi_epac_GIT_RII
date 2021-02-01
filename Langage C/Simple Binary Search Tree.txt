@@ -1,0 +1,18 @@
+Question 1: Function contains
+
+if(tree == NULL)
+    return 0;
+if(tree->root == NULL)
+    return 0;
+node_t *tmpNode = tree->root;
+while(tmpNode){
+    if(tmpNode->value == value)
+        return 1;
+    if(tmpNode->value < value) tmpNode = tmpNode->right;
+    else tmpNode = tmpNode->left;
+}
+return 0;
+
+Question2: Helpful submethods
+
+c'est vide

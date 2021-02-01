@@ -1,0 +1,8 @@
+uint32_t reset_highestorder_strong_bit(uint32_t x) {
+
+uint32_t mask = 0x80000000;
+while(1){
+    if(x >= mask)
+        return (x & ~mask);
+    mask >>= 1;
+}

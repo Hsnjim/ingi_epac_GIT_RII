@@ -1,0 +1,4 @@
+void swap(int *i, int *j) {
+int c= *i;
+*i = *j ; 
+*j =c ; 
